@@ -15,7 +15,7 @@ public class Cave {
 
 	public static void cavePath(String userName)
 	{
-		JOptionPane.showMessageDialog(null, "You walk into the cave. The cave you notcie had a recant cave in.");
+		JOptionPane.showMessageDialog(null, "You walk into the cave. The cave you notice had a recent cave in.");
 		JOptionPane.showMessageDialog(null, "You see a couple barrels of gunpowder. That might help get through this...or it might not.");
 		Object[] options = {"Light it",
         "Find different path"};

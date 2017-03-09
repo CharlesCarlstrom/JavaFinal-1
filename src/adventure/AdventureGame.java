@@ -44,7 +44,7 @@ public class AdventureGame
 		}
 		if(CaveAndForest == JOptionPane.NO_OPTION) // Forest
 		{
-			JOptionPane.showMessageDialog(null,  "YES it worked #2!");
+			Forest.forestPath(userName);
 		}
 		
 		

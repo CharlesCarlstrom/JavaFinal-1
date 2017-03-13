@@ -27,13 +27,13 @@ public class Calm
 				null,  
 				options,  
 				options[0]);
-		if(DrinkorNot == JOptionPane.YES_OPTION)
+		if(DrinkorNot == JOptionPane.YES_OPTION) // Risk drinking the water
 		{
-			JOptionPane.showMessageDialog(null, "Hello");
+			Drink.drinkPath(userName);
 		}
-		if(DrinkorNot == JOptionPane.NO_OPTION)
+		if(DrinkorNot == JOptionPane.NO_OPTION) // Pass by
 		{
-			JOptionPane.showMessageDialog(null, "Yep");
+			Pass.passPath(userName);
 		}
 
 	}

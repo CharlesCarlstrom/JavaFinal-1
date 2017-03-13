@@ -13,6 +13,7 @@ public class PlayAgain
 
 	public static void playAgain(String userName) // Copy to put in your code if they die " PlayAgain.playAgain(userName); "
 	{
+		JOptionPane.showMessageDialog(null,  "R.I.P " + userName + "!");
 		Object[] options = {"Play agian",
         "Exit"};
 		Component frame = null;
@@ -20,7 +21,7 @@ public class PlayAgain
 				"Play again or Exit?",
 				"New Game Question",
 				JOptionPane.YES_NO_OPTION,
-				JOptionPane.PLAIN_MESSAGE,
+				JOptionPane.ERROR_MESSAGE,
 				null,  
 				options,  
 				options[0]);

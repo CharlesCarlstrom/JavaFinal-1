@@ -13,7 +13,7 @@ public class Gunpowder1
 	{
 		JOptionPane.showMessageDialog(null, "Seeing the way the cave is you think it would be easier and faster to use the gunpowder.");
 		JOptionPane.showMessageDialog(null, "You light the barrels and turn to run away. As you start running your foot gets caught on a rock and you stumble!");
-		JOptionPane.showMessageDialog(null, "The gunpowder blows up! You being right in the path get blow to smithereens!! R.I.P " +userName );
+		JOptionPane.showMessageDialog(null, "The gunpowder blows up! You being right in the path get blow to smithereens!!");		
 		
 		PlayAgain.playAgain(userName);
 	}

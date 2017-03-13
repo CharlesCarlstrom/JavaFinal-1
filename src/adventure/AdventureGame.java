@@ -16,10 +16,7 @@ public class AdventureGame
 	{
 	
 		String userName;
-//		int userPick = 0;
-//		int cave = 0;
-//		int forest = 0;
-//		int Forest = 0;
+
 		
 		JOptionPane.showMessageDialog(null, "You wake up not remembering anything.");
 		JOptionPane.showMessageDialog(null, "You are by a mouth of a cave. And the cave is in a middle of a forest.");

@@ -1,6 +1,3 @@
-/**
- * 
- */
 package adventure;
 
 import javax.swing.JOptionPane;
@@ -28,37 +25,13 @@ public class Cave {
 				null,  
 				options,  
 				options[0]); 
-		if(Gunpowder == JOptionPane.YES_OPTION) // Light Gunpowder
+		if(Gunpowder == JOptionPane.YES_OPTION) // Light Gunpowder. You Die in this one.
 		{
-			JOptionPane.showMessageDialog(null, "Seeing the way the cave is you think it would be easier and faster to use the gunpowder.");
-			JOptionPane.showMessageDialog(null, "You light the barrels and turn to run away. As you start running your foot gets caught on a rock and you stumble!");
-			JOptionPane.showMessageDialog(null, "The gunpowder blows up! You being right in the path get blow to smithereens!! R.I.P " +userName ); // Add userName
+			Gunpowder1.lightGunpowder(userName);
 		}
-		if(Gunpowder == JOptionPane.NO_OPTION) // Find a different path
+		if(Gunpowder == JOptionPane.NO_OPTION) // Find a different path. You could live.
 		{
-			JOptionPane.showMessageDialog(null,  "Thinking the gunpowder is a terrible idea you look for another way down.");
-			JOptionPane.showMessageDialog(null,  "Seeing another and safer path you leave the gunpowder behind");
-			JOptionPane.showMessageDialog(null,  "You head down the path and come across a pirate.");
-			
-			Object[] choices = {"Look around before approching",
-	        "Approach the pirate"};
-			Component frame2 = null;
-			int pirate = JOptionPane.showOptionDialog(frame2,
-					"Look around or Approach Him?",
-					"Pirate Question",
-					JOptionPane.YES_NO_OPTION,
-					JOptionPane.PLAIN_MESSAGE,
-					null,  
-					choices,  
-					choices[0]);
-			if(pirate == JOptionPane.YES_OPTION) // Look around before approching
-			{
-				JOptionPane.showMessageDialog(null, "HI!"); 
-			}
-			if(pirate == JOptionPane.NO_OPTION) // Approch pirate
-			{
-				JOptionPane.showMessageDialog(null, "hi2"); 
-			}
+			Gunpowder2.dontLight(userName);
 		}
 
 	}

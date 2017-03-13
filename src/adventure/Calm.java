@@ -20,13 +20,21 @@ public class Calm
         "Pass by (Risk dehydration)"};
 		Component frame = null;
 		int DrinkorNot = JOptionPane.showOptionDialog(frame,
-				"Stay Calm or RUN!!!?",
-				"Cont. Question",
+				"Risk drinking the water at the chance of it being poisoned or Pass by (Risk dehydration)",
+				"Water Question",
 				JOptionPane.YES_NO_OPTION,
 				JOptionPane.PLAIN_MESSAGE,
 				null,  
 				options,  
 				options[0]);
+		if(DrinkorNot == JOptionPane.YES_OPTION)
+		{
+			JOptionPane.showMessageDialog(null, "Hello");
+		}
+		if(DrinkorNot == JOptionPane.NO_OPTION)
+		{
+			JOptionPane.showMessageDialog(null, "Yep");
+		}
 
 	}
 

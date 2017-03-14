@@ -23,7 +23,7 @@ public class Calm
 				"Risk drinking the water at the chance of it being poisoned or Pass by (Risk dehydration)",
 				"Water Question",
 				JOptionPane.YES_NO_OPTION,
-				JOptionPane.PLAIN_MESSAGE,
+				JOptionPane.QUESTION_MESSAGE,
 				null,  
 				options,  
 				options[0]);

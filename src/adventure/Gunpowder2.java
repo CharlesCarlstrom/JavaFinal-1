@@ -24,7 +24,7 @@ public class Gunpowder2
 				"Look around or Approach Him?",
 				"Pirate Question",
 				JOptionPane.YES_NO_OPTION,
-				JOptionPane.PLAIN_MESSAGE,
+				JOptionPane.QUESTION_MESSAGE,
 				null,  
 				options,  
 				options[0]);

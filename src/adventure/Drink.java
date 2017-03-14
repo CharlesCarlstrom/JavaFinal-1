@@ -14,17 +14,17 @@ public class Drink
 	public static void drinkPath(String userName) 
 	{
 		JOptionPane.showMessageDialog(null, "Turns out that it is just dirty water, safe enough to drink but is quite gross but worth the price.");
-		JOptionPane.showMessageDialog(null, "You continue on through the cave. You come to a wall of rubble and a narrow path in the other direction.");
-		JOptionPane.showMessageDialog(null, "You look closer at the wall of rubble looks to be the other side of the rubble you saw at the beginning, and you see another pirate under some of it.");
+		JOptionPane.showMessageDialog(null, "You continue on through the cave. You come to a wall of rubble and a narrow path that is leading the other direction.");
+		JOptionPane.showMessageDialog(null, "You look closer at the wall of rubble and it looks like the other side of the rubble that you saw when you entered the cave. Then you see another pirate under some of the rubble.");
 		
-		Object[] options = {"Check Pirate",
+		Object[] options = {"Check Pirate(Risk that he is enemy.)",
         "Continue down path"};
 		Component frame = null;
 		int checkorCont = JOptionPane.showOptionDialog(frame,
-				"Check the Pirate or Continue down Narrow Path?",
+				"Check the Pirate(Risk that he is an enemy) or Continue down Narrow Path?",
 				"Check or Cont. Question",
 				JOptionPane.YES_NO_OPTION,
-				JOptionPane.PLAIN_MESSAGE,
+				JOptionPane.QUESTION_MESSAGE,
 				null,  
 				options,  
 				options[0]);

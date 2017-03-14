@@ -17,14 +17,14 @@ public class Pass
 		JOptionPane.showMessageDialog(null, "You continue on through the cave. You come to a wall of rubble and a narrow path in the other direction.");
 		JOptionPane.showMessageDialog(null, "You look closer at the wall of rubble looks to be the other side of the rubble you saw at the beginning, and you see another pirate under some of it.");
 		
-		Object[] options = {"Check Pirate",
+		Object[] options = {"Check Pirate(Risk that he is enemy.)",
         "Continue down path"};
 		Component frame = null;
 		int checkorCont = JOptionPane.showOptionDialog(frame,
-				"Check the Pirate or Continue down Narrow Path?",
+				"Check the Pirate(Risk that he is an enemy.) or Continue down Narrow Path?",
 				"Check or Cont. Question",
 				JOptionPane.YES_NO_OPTION,
-				JOptionPane.PLAIN_MESSAGE,
+				JOptionPane.QUESTION_MESSAGE,
 				null,  
 				options,  
 				options[0]);

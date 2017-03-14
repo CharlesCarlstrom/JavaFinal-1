@@ -23,7 +23,7 @@ public class Approach
 				"Stay Calm or RUN!!!?",
 				"Cont. Question",
 				JOptionPane.YES_NO_OPTION,
-				JOptionPane.PLAIN_MESSAGE,
+				JOptionPane.QUESTION_MESSAGE,
 				null,  
 				options,  
 				options[0]);

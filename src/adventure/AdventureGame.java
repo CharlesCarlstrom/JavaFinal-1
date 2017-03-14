@@ -16,13 +16,12 @@ public class AdventureGame
 	{
 	
 		String userName;
-
 		
 		JOptionPane.showMessageDialog(null, "You wake up not remembering anything.");
 		JOptionPane.showMessageDialog(null, "You are by a mouth of a cave. And the cave is in a middle of a forest.");
 		JOptionPane.showMessageDialog(null, "Before you begin looking around you think its best to come up with a name just in case you find somebody.");
 		userName = JOptionPane.showInputDialog(null, "Wait, who am I?");
-		JOptionPane.showMessageDialog(null, userName +" Thats it! Now that you have a name where do you want to go?");
+		JOptionPane.showMessageDialog(null, userName + " Thats it! Now that you have a name where do you want to go?");
 		
 		Object[] options = {"Cave",
         "Forest"};
@@ -31,7 +30,7 @@ public class AdventureGame
 				"Cave or Forest?",
 				"Cave or Forest Question",
 				JOptionPane.YES_NO_OPTION,
-				JOptionPane.PLAIN_MESSAGE,
+				JOptionPane.QUESTION_MESSAGE,
 				null,  
 				options,  
 				options[0]); 

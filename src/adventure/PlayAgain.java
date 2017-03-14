@@ -13,7 +13,6 @@ public class PlayAgain
 
 	public static void playAgain(String userName) // Copy to put in your code if they die " PlayAgain.playAgain(userName); "
 	{
-//		JOptionPane.showMessageDialog(null,  "R.I.P " + userName + "!");
 		
 		Component frame = null;
 		JOptionPane.showMessageDialog(frame,

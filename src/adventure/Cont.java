@@ -13,7 +13,7 @@ public class Cont
 
 	public static void contPath(String userName) 
 	{
-		JOptionPane.showMessageDialog(null, "You find the end of the cave and find some sort of room with three chests. The chest might be trapped.");
+		JOptionPane.showMessageDialog(null, "You find the end of the cave and find some sort of room with three chests. You see a note on the cave wall and it says 'Two of the chests are trapped!'.");
 		
 		Object[] options = {"Open One of the chest",
         "Look around the room some more."};
@@ -26,7 +26,7 @@ public class Cont
 				null,  
 				options,  
 				options[0]);
-		if(checkorCont == JOptionPane.YES_OPTION) // Open chest (You die)
+		if(checkorCont == JOptionPane.YES_OPTION) // Open chest (You "Might" die)
 		{
 			OpenChest.openChest(userName);
 		}

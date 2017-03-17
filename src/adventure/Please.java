@@ -1,6 +1,3 @@
-/**
- * 
- */
 package adventure;
 
 import java.awt.Component;
@@ -18,7 +15,7 @@ public class Please {
 	 */
 	public static void pleasePlay() 
 	{
-		JOptionPane.showMessageDialog(null, "You don't? Why not we worked hard on this game. Plesae play.");
+		JOptionPane.showMessageDialog(null, "Why not we worked hard on this game. Plesae play.");
 		
 		Object[] options = {"Play game",
         "Don't play"};

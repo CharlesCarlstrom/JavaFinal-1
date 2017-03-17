@@ -23,13 +23,13 @@ public class LookAround
 				"Pull the lever or Go back to the three chest?",
 				"Lever or Chests Question",
 				JOptionPane.YES_NO_OPTION,
-				JOptionPane.WARNING_MESSAGE,
+				JOptionPane.QUESTION_MESSAGE,
 				null,  
 				options,  
 				options[0]);
 		if(LeverorChest == JOptionPane.YES_OPTION) // Pull lever
 		{
-			
+			PullLever.pullLever(userName);
 		}
 		if(LeverorChest == JOptionPane.NO_OPTION) // Go back to chests
 		{

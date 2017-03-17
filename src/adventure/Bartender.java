@@ -37,7 +37,7 @@ public class Bartender {
 		}
 		if(PlayOrAsk == JOptionPane.NO_OPTION) // Ask if he knows you
 		{
-			Tavern.tavernPath(userName);
+			Ask.askPath(userName);
 		}
 
 	}

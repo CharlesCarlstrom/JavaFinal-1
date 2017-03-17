@@ -37,7 +37,7 @@ public class Bartender {
 		}
 		if(PlayOrAsk == JOptionPane.NO_OPTION) // you go to the tavern.
 		{
-			Tavern.tavernPath(userName);
+			Ask.askPath(userName);
 		}
 
 	}

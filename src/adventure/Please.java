@@ -33,7 +33,7 @@ public class Please {
 				options[0]);
 		if(PlayorNot == JOptionPane.YES_OPTION) // Starts the game
 		{
-			AdventureGame.main(null);
+			AdventureGame.start(null);
 		}
 		if(PlayorNot == JOptionPane.NO_OPTION) // CLoses the game
 		{

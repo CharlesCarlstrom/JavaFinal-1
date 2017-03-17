@@ -13,7 +13,6 @@ public class PlayAgain
 
 	public static void playAgain(String userName) // Copy to put in your code if they die " PlayAgain.playAgain(userName); "
 	{
-//		JOptionPane.showMessageDialog(null,  "R.I.P " + userName + "!");
 		
 		Component frame = null;
 		JOptionPane.showMessageDialog(frame,
@@ -34,7 +33,7 @@ public class PlayAgain
 				options[0]);
 		if(newGame == JOptionPane.YES_OPTION) // Start new game
 		{
-			AdventureGame .main(null);
+			AdventureGame .start(null);
 		}
 		if(newGame == JOptionPane.NO_OPTION) // Stop
 		{

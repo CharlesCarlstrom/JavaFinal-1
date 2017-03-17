@@ -33,7 +33,7 @@ public class PlayAgain
 				options[0]);
 		if(newGame == JOptionPane.YES_OPTION) // Start new game
 		{
-			AdventureGame .main(null);
+			AdventureGame .start(null);
 		}
 		if(newGame == JOptionPane.NO_OPTION) // Stop
 		{

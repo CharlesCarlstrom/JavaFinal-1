@@ -1,6 +1,3 @@
-/**
- * 
- */
 package adventure;
 
 import java.awt.Component;
@@ -11,11 +8,10 @@ import javax.swing.JOptionPane;
  * @author AM312792
  *
  */
-public class Start {
+public class Start 
+{
 
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) 
 	{
 		JOptionPane.showMessageDialog(null, "Welcome to 'Adventure Game'!");
@@ -34,13 +30,12 @@ public class Start {
 				options[0]);
 		if(PlayorNot == JOptionPane.YES_OPTION) // Starts the game
 		{
-			AdventureGame.main(null);
+			AdventureGame.start(null);
 		}
 		if(PlayorNot == JOptionPane.NO_OPTION) // Don't play
 		{
 			Please.pleasePlay();
 		}
-
 
 	}
 

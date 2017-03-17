@@ -33,11 +33,11 @@ public class Tavern {
 				options[0]); 
 		if(StealOrTavern == JOptionPane.YES_OPTION) // you steal some stuff the go to the tavern.
 		{
-			 Castle.castlePath(userName);
+			 Steal.steal(userName);
 		}
 		if(StealOrTavern == JOptionPane.NO_OPTION) // you go to the tavern.
 		{
-			Tavern.tavernPath(userName);
+			Bartender.main(userName);
 		}
 	}
 

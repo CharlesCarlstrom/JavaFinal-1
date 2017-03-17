@@ -11,16 +11,15 @@ import javax.swing.JOptionPane;
  * @author CC113884
  *
  */
-public class Forest {
+public class Tavern {
 
 	/**
 	 * @param args
 	 */
-	public static void forestPath(String userName) 
-	{
-		JOptionPane.showMessageDialog(null, "You decide to wander through the forest to figure out where you are. ");
-		JOptionPane.showMessageDialog(null, "you come across a road with a sign pointing in two directions, one says kings castle and the other says Oceanside tavern");
-		
+	public static void tavernPath(String userName) {
+		JOptionPane.showMessageDialog(null, " You head to the tavern and along the way you see some people on and you ask them how much further the tavern is.");
+		JOptionPane.showMessageDialog(null, " they drop everything they're carrying and run from you");
+
 		Object[] options = {"Kings Castle",
         "Oceanside Tavern"};
 		Component frame = null;
